@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.pagetitle {
+    padding-top: 100px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagetitle h1 {
+    font-size: 2rem;
+    color: #343a40;
+}
+
+/* Style untuk card */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk form */
+form {
+    padding: 20px;
+}
+
+/* Style untuk input dan select */
+input.form-control,
+select.form-select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* GStyleaya untuk Bt */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Style untuk Bt */
+
+.btn-primary {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #800000; 
+    color: #fff; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #600000; 
+}
+
+/* Responsive  */
+@media (max-width: 768px) {
+    .pagetitle h1 {
+        font-size: 1.5rem;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+.invalid-feedback {
+    display: none; 
+}
+.is-invalid + .invalid-feedback {
+    display: block;
+}

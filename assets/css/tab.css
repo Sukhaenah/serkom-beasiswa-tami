@@ -1,0 +1,53 @@
+/* General Header Styles */
+header {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the header */
+}
+
+
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    color: #800000;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #800000;
+    color: white;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: rgba(128, 0, 0, 0.1);
+    color: #800000;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .nav-tabs .nav-link {
+        padding: 8px 15px;
+    }
+
+    .btn-daftar {
+        padding: 8px 15px;
+    }
+
+    .site-title {
+        font-size: 1.2rem;
+    }
+}

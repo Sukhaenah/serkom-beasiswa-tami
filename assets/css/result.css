@@ -1,0 +1,81 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    color: #343a40;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+canvas {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative; 
+}
+
+.table th, .table td {
+    border: 1px solid #800000;
+    border-radius: 10px;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.table th {
+    background-color: #800000;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #800000;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 1rem;
+}
+
+.search-container input {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 200px;
+}
+
+a {
+    color: #800000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
